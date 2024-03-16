@@ -19,6 +19,8 @@ const MovieReducer = (state, action) => {
           return movie;
         }),
       };
+    default:
+      return state;
   }
 };
 

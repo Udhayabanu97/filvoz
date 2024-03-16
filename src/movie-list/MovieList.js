@@ -1,12 +1,4 @@
-import {
-  Box,
-  Card,
-  CardContent,
-  Grid,
-  Paper,
-  Stack,
-  Typography,
-} from "@mui/material";
+import { Box, Card, CardContent, Grid, Paper, Typography } from "@mui/material";
 import React, { useContext } from "react";
 import { MovieContext } from "../context/MovieContext";
 import {
